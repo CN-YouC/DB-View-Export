@@ -1,0 +1,17 @@
+# 构建产物
+build/
+dist/
+*.spec
+__pycache__/
+*.py[cod]
+
+# 导出的结果
+*.xlsx
+*.csv
+
+# 编辑器与系统
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+*.tmp

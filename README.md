@@ -21,9 +21,11 @@
 
 ## 下载
 
-到 [Releases](../../releases) 下载 `DB视图导出.exe`，与仓库里的 `.bat` 放在同一目录即可使用。
+直接下载仓库根目录的 [`DB视图导出.exe`](DB视图导出.exe)，双击即可使用，不需要安装 Python；也可以双击同目录的 `DB视图导出.bat` 启动。
 
-也可以克隆仓库后从源码运行，或自行打包（见下文）。
+> Release 页只记录版本说明，不放附件——exe 随仓库一起分发，克隆下来就是完整可用的。
+
+也可以从源码运行，或自行打包（见下文）。
 
 ## 使用（三步）
 
@@ -63,7 +65,7 @@ python src/db_view_export.py --db D:\x.db --yes
 build.bat
 ```
 
-会安装 PyInstaller 与 openpyxl，并在 `dist/` 下生成单文件 exe。构建产物不进仓库。
+会安装 PyInstaller 与 openpyxl，并在 `dist/` 下生成单文件 exe。`dist/` 不进仓库；仓库根目录那份 `DB视图导出.exe` 是随 v1.0.0 固定下来的发行版，两者不要混用。
 
 ## 项目结构
 
